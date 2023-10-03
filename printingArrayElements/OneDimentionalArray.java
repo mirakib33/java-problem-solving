@@ -1,5 +1,7 @@
 package printingArrayElements;
 
+import java.util.Arrays;
+
 public class OneDimentionalArray {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5};
@@ -13,5 +15,8 @@ public class OneDimentionalArray {
         for(int i = 0; i < array.length; i++) {
             System.out.println(i);
         }
+
+//        Using standard library Arrays
+        System.out.println(Arrays.toString(array));
     }
 }
