@@ -1,4 +1,4 @@
-package printingArrayElements;
+package printingArrayElements.singleDimensional;
 
 import java.util.Arrays;
 
@@ -10,11 +10,14 @@ public class OneDimentionalArray {
         for (int element: array) {
             System.out.println(element);
         }
+        System.out.println("----------");
 
 //        Using for loop
         for(int i = 0; i < array.length; i++) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
+        System.out.println("----------");
 
 //        Using standard library Arrays
         System.out.println(Arrays.toString(array));
